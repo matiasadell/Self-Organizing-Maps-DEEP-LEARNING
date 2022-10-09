@@ -1,4 +1,4 @@
-## Mega Caso de Estudio 
+# Mega Caso de Estudio 
 
 # Parte 1 - Identificar los fraudes potenciales con un SOM
 
