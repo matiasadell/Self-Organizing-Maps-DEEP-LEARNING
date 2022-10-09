@@ -1,11 +1,4 @@
 ## Mega Caso de Estudio 
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jan  7 19:37:56 2020
-
-@author: juangabriel
-"""
 
 # Parte 1 - Identificar los fraudes potenciales con un SOM
 
@@ -95,8 +88,3 @@ classifier.fit(customers, is_fraud,  batch_size = 1, epochs = 2)
 y_pred  = classifier.predict(customers)
 y_pred = np.concatenate((dataset.iloc[:,0:1].values, y_pred), axis = 1)
 y_pred = y_pred[y_pred[:,1].argsort()]
-
-
-
-
-
