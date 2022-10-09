@@ -1,11 +1,4 @@
 # Self Organizing Map
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jan  7 13:12:15 2020
-
-@author: juangabriel
-"""
 
 # Importar las librerías
 import numpy as np
